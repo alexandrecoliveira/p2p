@@ -2,7 +2,12 @@
 import serial
 ser = serial.Serial('/dev/pts/3')
 print(ser.portstr)
-ser.write('Olá Mundo\n')
+print "'*** CALCULADORA ***"
+n1 = raw_input("Digite o primeiro número: ")
+n2 = raw_input("Digite o segundo número: ")
+oper = raw_input("Digite o operador (+, -, *, /): ")
+ser.write(n1 + ";" + n2 + ";" + oper + ";" + "\n")
+print "Dados Enviados"
 cli = ser.readline()
-print cli
+print "Reposta: " + cli
 ser.close()
