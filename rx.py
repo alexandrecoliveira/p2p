@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import serial
 ser = serial.Serial('/dev/pts/4')
 print(ser.portstr)
