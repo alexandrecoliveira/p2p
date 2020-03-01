@@ -1,7 +1,7 @@
 # p2p
 Repositório usado na matéria de Redes do curso de Análise e Desenv. da Fatec - Carapicuiba
 
-Instruções para uso:
+Instruções:
 
 1) Clone o repositório https://github.com/freemed/tty0tty
 2) Acesso o diretório tty0tty/pst/ e digite Make
